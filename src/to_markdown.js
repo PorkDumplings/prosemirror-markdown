@@ -6,6 +6,10 @@ export class MarkdownSerializer {
   // object should map node names in a given schema to function that
   // take a serializer state and such a node, and serialize the node.
   //
+  // 构造具有给定配置的序列化程序。 “节点” 
+  // 对象应该将给定模式中的节点名称映射到函数 
+  // 获取一个序列化器状态和这样一个节点，并序列化该节点。
+  //
   // The `marks` object should hold objects with `open` and `close`
   // properties, which hold the strings that should appear before and
   // after a piece of text marked that way, either directly or as a
